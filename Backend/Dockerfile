@@ -1,7 +1,7 @@
 FROM nodejs:20
 RUN useradd expense 
 RUN mkdir -p /app/server 
-RUN chown -r expense:expense /app/server
+RUN chown -R expense:expense /app/server
 WORKDIR /app/server
 COPY  package.json .
 COPY  *.js . 
