@@ -6,4 +6,4 @@ RUN chown  expense:expense /app/server
 WORKDIR /app/server
 COPY package.json .
 COPY *.js .
-CMD [ "node", "index.js" 
+CMD [ "node", "index.js" ]
