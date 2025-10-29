@@ -1,7 +1,7 @@
 name: expense 
 networks:
   default:
-  name: expense
+    name: expense
 services:
   mysql:
     container_name: mysql 
